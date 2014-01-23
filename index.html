@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/jquery.mobile.icons.min.css" rel="stylesheet" >
+<link href="css/jquery.mobile.structure.min.css" rel="stylesheet" >
+<link href="css/iyaan2.min.css" rel="stylesheet"/>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+<!--Page 1 -->
+<div data-role="page" id="page1">
+
+  
+  <div role="main" class="ui-content">
+	<center>
+	<h2>Ini Laman Utama</h2>
+	<img src="gambar/logointan.jpg">
+	<h3> Web Mobile rasmi INTAN</h3>
+    </center>  
+	<a href="#page2" class="ui-btn ui-btn-inline">Sejarah</a>
+	<a href="#page3" class="ui-btn ui-btn-inline">Matlamat</a>
+	<a href="#page4" class="ui-btn ui-btn-inline">Direktori</a>
+  </div>
+
+</div>
+	
+<!--Page 2-->
+     <div data-role="page" id="page2" >
+	<!--panel-->
+	<div data-role="panel" id="panel1" data-display="overlay">
+	<h3>Senarai Mukasurat ada dibawah</h3>
+	<br/>
+	<ul data-role="listview">
+		<li><a href="luar1.html" data-transition="turn">Luar 1</a></li>
+		<li><a href="luar2.html" data-transition="turn">Luar 2</a></li>
+		<li><a href="luar3.html" data-transition="turn">Luar 3</a></li>
+		</ul>
+	</div>
+<!--header -->
+     <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+		<a href="#panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+	     <h3>Sejarah</h3>
+	</div>
+<!--content -->
+	<div role="main" class="ui-content">
+	<h2>Sepintas Lalu</h2>
+	<img src="gambar/intanbgn.jpg">
+	<p>Institut Tadbiran Awam Negara (INTAN) adalah sebuah pusat latihan yang terletak di bawah Jabatan Perkhidmatan Awam, Malaysia. Ia bermula di sebuah bangunan kecil di Port Dickson pada bulan September 1959 yang ketika itu dikenali sebagai Pusat Latihan Kakitangan. Pusat ini memberikan kursus kepada pegawai-pegawai berkaitan pentadbiran tanah, pentadbiran kewangan, pengurusan pejabat dan pentadbiran kerajaan tempatan.
+    </p>
+	
+	<a href="#page3" class="ui-btn ui-btn-inline">Matlamat</a>
+	<a href="#pop1" class="ui-btn ui-btn-inline" data-rel="popup" data-transition="pop">Visi</a>
+	<!--pop 1-->
+	<div data-role="popup" id="pop1"  data-dismissible="false" style="max-width:400px;">
+     <div data-role="header" >
+	 <h3>Visi</h3>
+	 </div>
+	 <div role="main" class="ui-content">
+	Visi : menjadi institusi perkhidmatan awam yang unggul
+	 
+        
+        <h4 class="ui-title">Adakah anda ingin teruskan?</h4>
+    
+        <a href="#" class="ui-btn ui-corner-all ui-shadow " data-rel="back">Kembali</a>
+        <a href="#page3" class="ui-btn ui-corner-all ui-shadow " data-transition="flow">Ya</a>
+    </div>
+</div>
+	</div>
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <h3>Navigasi</h3>
+	<div data-role="navbar">
+	<ul>
+		<li><a href="#page2" data-icon="grid" class="ui-btn-active ui-state-persist" >Sejarah</a></li>
+		<li><a href="#page3" data-icon="star" >Matlamat</a></li>
+		<li><a href="#page4" data-icon="gear" >Direktori</a></li>
+	</ul>
+  </div>
+  </div>	
+  
+
+  </div>
+<!--Page 3-->
+     <div data-role="page" id="page3" >
+
+<!--header -->
+     <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+	     <h3>Pelan Strategik</h3>
+	</div>
+<!--content -->
+	<div role="main" class="ui-content">
+	<h2>Pelan Strategik INTAN 2011-2015</h2>
+	    Pelan Strategik INTAN ini digubal bagi merealisasikan falsafah Jabatan Perkhidmatan Awam sebagai peneraju transformasi sektor awam, iaitu dengan melahirkan penjawat awam yang kompeten, profesional dan beretika serta tangkas bertindak bagi memenuhi kehendak rakyat. Ia menyediakan arah tuju kepada INTAN untuk menjadi sebuah institusi pembelajaran sektor awam yang unggul, di samping memandu institusi ini dalam menyediakan pembelajaran yang berkualiti bagi membangunkan modal insan sektor awam.
+		<ul data-role="listview" data-inset="true">
+			<li>TERAS 1<br/>
+			Program Pembelajaran Berkualiti</li>
+			<li>TERAS 2<br/>
+			Jurufasilatih Kompeten</li> 
+			<li>TERAS 3 </br>
+			Infrastruktur Berkualiti</li>
+ 
+			<li>TERAS 4</br>
+			Pengurusan Berkesan Terhadap Kepakaran Berasaskan Pengalaman</li>
+ 
+			<li>TERAS 5</br>
+			Khidmat Nasihat dan Konsultasi yang Cemerlang</li>
+ 
+			<li>TERAS 6</br>
+			Pemupukan Budaya Penyelidikan</li>
+ 
+			<li>TERAS 7</br>
+			Jaringan Kerjasama dan Perkongsian Strategik
+			</li>
+		</ul>
+		<br/>
+		<!--collapsible-->
+		<div data-role="collapsible-set" data-collapsed="false">
+				<div data-role="collapsible" data-theme="b">
+				<h4>Teras 1 </h4>
+				  <p> Program Pembelajaran Berkualiti</p>
+				</div>
+				
+				<div data-role="collapsible" >
+				<h4>Teras 2 </h4>
+				  <p> Jurufasilatih Kompeten</p>
+				</div>
+				
+				<div data-role="collapsible" data-theme="b">
+				<h4>Teras 3 </h4>
+				  <p> Infrastruktur Berkualiti</p>
+				</div>
+				
+				<div data-role="collapsible">
+				<h4>Teras 4 </h4>
+				  <p> Pengurusan Berkesan Terhadap Kepakaran Berasaskan Pengalaman</p>
+				</div>
+		</div>
+<a href="#page2" class="ui-btn" data-transition="pop">Sejarah</a>
+
+	
+	
+	</div>
+<!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <h3>Navigasi</h3>
+	<div data-role="navbar">
+	<ul>
+		<li><a href="#page2" data-icon="grid"  >Sejarah</a></li>
+		<li><a href="#page3" data-icon="star" class="ui-btn-active ui-state-persist">Matlamat</a></li>
+		<li><a href="#page4" data-icon="gear" >Direktori</a></li>
+	</ul>
+  </div>
+  </div>	
+  	
+  </div>
+ <!--Page 4-->
+<div data-role="page" id="page4">
+	<!--header -->
+	  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Kembali">
+		<h3>Personel</h3>
+	  </div>
+  
+  <!--content -->
+	  <div role="main" class="ui-content">
+		<h3>Sub Kluster Bisnes Solusi ICT</h3>
+		<ul data-role="listview" data-inset="true" data-filter="true">
+		<li>
+			<img src="gambar/fatmah.jpg" />
+			<h3> FATMAH BINTI MAHMOOD</h3>
+			<p>Ketua Kluster</p>
+			<p><a href="Tel:03-20847738" class="ui-btn ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">Telefon</a> 
+			<a href="sms://+6012345676" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext ui-btn-inline">Email</a>
+			<a href="mailto:fatmah@intan.my" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">Email</a> </p>
+		</li>
+		
+		<li>
+			<img src="gambar/najat.jpg"  />
+			<h3> MOGHIRATUNNAJAT BT HAJI ZAKARIA</h3>
+			<p>Perunding Latihan Kanan</p>
+			<p><a href="Tel:03-20847738" class="ui-btn ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">Telefon</a> 
+			<a href="sms://+6012345676" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext ui-btn-inline">Email</a>
+			<a href="mailto:fatmah@intan.my" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">Email</a> </p>
+		</li>
+		<li>
+			<img src="http://www.intanbk.intan.my/profiler/images/comprofiler/tn0_4baace55b71b2.jpg"  />
+			<h3> MOHAMAD SABRI B. SALEH</h3>
+			<p>Perunding Latihan Kanan</p>
+			<p><a href="Tel:03-20847738" class="ui-btn ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">Telefon</a> 
+			<a href="sms://+6012345676" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext ui-btn-inline">Email</a>
+			<a href="mailto:fatmah@intan.my" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">Email</a> </p>
+		</li>
+		<li>
+			<img src="http://www.intanbk.intan.my/profiler/images/comprofiler/tn0_4b8de2fcbf876.jpg"  />
+			<h3> AHMAD BKHTIAR BIN JAMBURI</h3>
+			<p>Perunding Latihan Kanan</p>
+			<p><a href="Tel:03-20847738" class="ui-btn ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">Telefon</a> 
+			<a href="sms://+6012345676" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext ui-btn-inline">Email</a>
+			<a href="mailto:fatmah@intan.my" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">Email</a> </p>
+		</li>
+		<!--pop up-->
+		
+		
+		<li>
+			<img src="http://www.intanbk.intan.my/profiler/images/comprofiler/tn0_4baacea3501be.jpg"  />
+			<h3> FRANK CHEE HO HOH</h3>
+			<p>Perunding Latihan Kanan</p>
+			<p><a href="#popd1" data-rel="popup" class="ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-notext " data-transition="slideup">popup</a>
+			</p>
+			
+		</li>
+		<li><a href="#popd1" data-rel="popup" class="ui-btn ui-corner-all ui-icon-arrow-r" data-transition="slideup">
+			<img src="http://www.intanbk.intan.my/profiler/images/comprofiler/tn0_4b8de339caf91.jpg"  />
+			<h3> MOHD AZIRI BIN CHE WIL</h3>
+			<p>Perunding Latihan 
+			
+			</p></a>
+		</li>
+		<li>
+			<img src="http://www.intanbk.intan.my/profiler/images/comprofiler/tn0_4becb9d29b655.jpg"  />
+			<h3> SYAZLEENA BINTI YAHYA</h3>
+			<p>Perunding Latihan </p>
+			<p><a href="#popd1" data-rel="popup" class="ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-notext " data-transition="slideup">popup</a>
+			</p>
+	  </li>
+	  </ul>
+	  
+	  <div data-role="popup" id="popd1" >
+				<a href="Tel:03-20847738" class="ui-btn ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline">Telefon</a> 
+				<a href="sms://+6012345676" class="ui-btn ui-corner-all ui-icon-action ui-btn-icon-notext ui-btn-inline">Email</a>
+				<a href="mailto:fatmah@intan.my" class="ui-btn ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline">Email</a> 
+			</div>
+	  
+	  </div>
+ 
+<!--footer -->
+  <div data-role="footer" data-position="fixed">
+    <h3>Navigasi</h3>
+	<div data-role="navbar">
+	<ul>
+		<li><a href="#page2" data-icon="grid" >Sejarah</a></li>
+		<li><a href="#page3" data-icon="star" >Matlamat</a></li>
+		<li><a href="#page4" data-icon="gear" class="ui-btn-active ui-state-persist">Direktori</a></li>
+	</ul>
+  </div>
+  </div>
+
+</div>
+
+	
+	
+
+  
+</body>
+</html>
+
